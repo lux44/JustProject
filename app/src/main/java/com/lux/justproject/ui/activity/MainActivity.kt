@@ -1,12 +1,15 @@
 package com.lux.justproject.ui.activity
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import com.lux.justproject.R
+import com.lux.justproject.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity<ActivityMainBinding>() {
+    override val TAG: String = MainActivity::class.java.simpleName
+    override val layoutResID: Int
+        get() = R.layout.activity_main
+
+    override fun afterOnCreate() {
+
     }
+
 }
