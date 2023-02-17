@@ -17,12 +17,15 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            android:layout_centerInParent="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello 어디 함 되나 보자"/>
+        android:layout_height="match_parent"
+        android:background="@color/fff7e0">
+        <ImageView
+            android:id="@+id/intro_heart"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/ic_baseline_favorite_24"/>
     </RelativeLayout>
 
 </layout>
